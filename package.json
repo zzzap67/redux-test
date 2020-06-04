@@ -26,7 +26,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "author": "",
+  "author": "<zzzap67@gmail.com>",
   "license": "MIT",
   "jest": {
     "setupFiles": [
@@ -172,5 +172,6 @@
       "pre-commit": "cross-env npm run lint && npm test",
       "pre-push": "cross-env npm run lint && npm test"
     }
-  }
+  },
+  "repository": "git@github.com:zzzap67/redux-test.git"
 }
